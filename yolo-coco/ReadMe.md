@@ -1,4 +1,5 @@
-NOTE: yolov3.weights needs to be copied from source. The file here is empty
+##**NOTE**: 
+yolov3.weights needs to be copied from the original [source](https://pjreddie.com/media/files/yolov3.weights). The file here is empty
 
 
 *******************************
