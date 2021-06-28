@@ -8,9 +8,9 @@ Implementation of YOLOv3 with OpenCV for color based classification of objects. 
 
 ## Demo Result
 For input [video](https://www.youtube.com/watch?v=m6OelxDt1kk) ~1:20-~1:30 snapshots of the results are as shown below:<br/>
-[[file:/result_images/result_1.JPG]]<br/>
-[[file:/result_images/result_2.JPG]]<br/>
-[[file:/result_images/result_3.JPG]]<br/>
+[[https://github.com/VenissaCarolQuadros/FootballTeamDetection_YOLOnOpenCV/result_images/result_1.JPG]]<br/>
+[[https://github.com/VenissaCarolQuadros/FootballTeamDetection_YOLOnOpenCV/result_images/result_2.JPG]]<br/>
+[[https://github.com/VenissaCarolQuadros/FootballTeamDetection_YOLOnOpenCV/result_images/result_3.JPG]]<br/>
 
 
 ## How to use?
