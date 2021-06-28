@@ -78,6 +78,20 @@ class Detect():
 
             try:
                 for i in idxs.flatten():
+
+                    """
+
+                    (x, y) = (boxes[i][0], boxes[i][1])
+                    (w, h) = (boxes[i][2], boxes[i][3])
+
+                    color = [int(c) for c in COLORS[classIDs[i]]]
+                    label = LABELS[classIDs[i]]
+
+                    cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
+                    cv2.putText(frame, label, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 2)
+
+                    """
+
                     # Limiting labels to only what we need
                     if LABELS[classIDs[i]] in ['sports ball', 'person']:
                         (x, y) = (boxes[i][0], boxes[i][1])
@@ -94,6 +108,7 @@ class Detect():
 
                         cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
                         cv2.putText(frame, label, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 2)
+                        
             except:
                 # Usually occurs when there are no detections in a frame. Worry only when you see too many of these for a short video
                 print("Exception")
